@@ -1,0 +1,21 @@
+{
+  "timeZone": "Africa/Cairo",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "QMedicEvents",
+      "libraryId": "1hnqS1aitKReg-q8v29EB2CobkOuuUjNYNhfKKl0ljXre5oO22HxPfjEc",
+      "version": "5",
+      "developmentMode": true
+    }, {
+      "userSymbol": "QMedicS3API",
+      "libraryId": "1SeqvjDQh3iQPAiHT-6JKY85VW_6Nqlvd_7kmnDDvt7uLm4pgI50bCTED",
+      "version": "1",
+      "developmentMode": true
+    }]
+  },
+  "webapp": {
+    "access": "DOMAIN",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER"
+}
